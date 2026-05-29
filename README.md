@@ -36,52 +36,29 @@ Los documentos generados pueden ser utilizados por:
 ```mermaid
 flowchart TD
 
-A[Idea o Necesidad] --> B[RFC]
+A[Idea / Problema] --> B[PRD]
 
-B --> C[ADR]
+B --> C{Requiere diseño técnico?}
 
-C --> D[C4]
+C -->|No| D[Historias de Usuario]
 
-D --> E[Technical Brief]
+C -->|Sí| E[RFC]
 
-E --> F[Estimación]
+E --> F{Hay decisión arquitectónica?}
 
-F --> G[Implementación]
+F -->|No| G[Technical Brief]
 
-G --> H[Operación]
+F -->|Sí| H[ADR]
 
-H --> I[Postmortem]
-```
+H --> G
 
-## Roles Participantes
+G --> I[Estimación]
 
-```mermaid
-flowchart LR
+I --> J[Historias de Usuario]
 
-PM[Product Manager]
-BA[Analista]
-TL[Tech Lead]
-ARCH[Arquitecto]
-DEV[Developer]
-QA[QA]
+J --> K[Implementación]
 
-PM --> RFC
+K --> L[Testing]
 
-BA --> RFC
-
-ARCH --> ADR
-
-TL --> ADR
-
-ARCH --> C4
-
-TL --> C4
-
-DEV --> TechnicalBrief
-
-TL --> TechnicalBrief
-
-QA --> Estimación
-
-DEV --> Estimación
+L --> M[Deploy]
 ```
