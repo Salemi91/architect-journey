@@ -22,12 +22,10 @@ Los documentos generados pueden ser utilizados por:
 
 ## Beneficios
 
-- Mejor entendimiento del contexto
-- Estimaciones más precisas
-- Menor dependencia de conocimiento tribal
-- Mejor onboarding
-- Base documental para IA
-- Trazabilidad de decisiones
+- Alinear equipos humanos.
+- Reducir ambigüedad.
+- Mejorar estimaciones.
+- Servir como contexto estructurado para asistentes de IA.
 
 ---
 
