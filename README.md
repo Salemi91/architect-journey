@@ -1,6 +1,6 @@
-# Architect Journey
 
-Framework de documentación para apoyar la toma de decisiones arquitectónicas, alineación de equipos y adopción de herramientas de Inteligencia Artificial en proyectos de software.
+# Architect Journey
+Este repositorio forma parte del aprendizaje y evolución profesional hacia roles de Arquitectura de Software y Engineering Leadership.
 
 ---
 
