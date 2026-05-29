@@ -60,3 +60,19 @@ K --> L[Testing]
 
 L --> M[Deploy]
 ```
+
+## Roles y Responsabilidades
+
+| Documento            | Responsables Principales         | Participantes                                |
+| -------------------- | -------------------------------- | -------------------------------------------- |
+| PRD                  | Product Manager, Product Analyst | Engineering Manager, Stakeholders, Tech Lead |
+| RFC                  | Tech Lead, Arquitecto            | Backend, Frontend, QA, Engineering Manager   |
+| ADR                  | Arquitecto, Tech Lead            | Especialistas Técnicos                       |
+| Technical Brief      | Backend, Frontend, QA            | Tech Lead                                    |
+| Estimación           | Equipo de Desarrollo             | QA, Tech Lead                                |
+| Historias de Usuario | Product Analyst                  | Equipo Técnico                               |
+| Testing              | QA                               | Backend, Frontend                            |
+| Deploy               | Dev Team                         | Tech Lead, DevOps                            |
+
+> No todos los cambios requieren todos los documentos. El objetivo es generar únicamente la documentación necesaria para reducir incertidumbre, facilitar la toma de decisiones y mejorar la colaboración entre equipos humanos e Inteligencia Artificial.
+
