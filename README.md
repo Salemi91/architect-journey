@@ -27,6 +27,12 @@ Los documentos generados pueden ser utilizados por:
 - Mejorar estimaciones.
 - Servir como contexto estructurado para asistentes de IA.
 
+## Alcance
+
+Este repositorio se enfoca en la definición y documentación de decisiones de producto, arquitectura y desarrollo.
+
+La automatización de estos documentos mediante Inteligencia Artificial se encuentra fuera del alcance de este repositorio y será abordada en proyectos complementarios.
+
 ---
 
 ## Flujo de Documentación
