@@ -1,31 +1,58 @@
-# ADR-XXX
+# ADR (Architecture Decision Record)
 
-## Status
+## ¿Qué es?
 
-Proposed
+Un ADR registra una decisión arquitectónica relevante tomada durante la vida de un sistema.
 
-## Context
+Su objetivo es preservar el razonamiento detrás de decisiones que afectan la arquitectura a largo plazo.
 
-Problema a resolver.
+---
 
-## Decision
+## ¿Cuándo usarlo?
 
-Decisión tomada.
+Utilizar cuando se decide:
 
-## Alternatives Considered
+* Adoptar una nueva arquitectura.
+* Incorporar una nueva tecnología.
+* Cambiar una estrategia de integración.
+* Modificar patrones de comunicación.
+* Introducir componentes con impacto significativo.
 
-Alternativa 1
+No debe utilizarse para documentar funcionalidades de negocio.
 
-Alternativa 2
+---
 
-## Consequences
+## ¿Quién participa?
 
-Positivas
+### Responsables
 
-Negativas
+* Arquitecto de Software
+* Tech Lead
 
-## Related Documents
+### Participantes
 
-RFC
-C4
-Technical Brief
+* Especialistas Técnicos
+* Equipo de Desarrollo
+
+---
+
+## ¿Qué entregable produce?
+
+* Contexto de la decisión.
+* Alternativas consideradas.
+* Decisión tomada.
+* Consecuencias positivas y negativas.
+* Estado de la decisión.
+
+---
+
+## ¿Cómo ayuda a la IA?
+
+Permite que una IA:
+
+* Comprenda restricciones arquitectónicas.
+* Mantenga coherencia técnica.
+* Evite proponer soluciones incompatibles.
+* Conozca decisiones históricas del sistema.
+
+Los ADR suelen convertirse en una de las fuentes de contexto más valiosas para asistentes de IA técnicos.
